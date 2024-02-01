@@ -1,0 +1,105 @@
+.text-area {
+    margin-left: 40px;
+    border: none;
+    border-radius: 0%;
+    background-color:#e6f9ff ;
+    font-size: 15px;
+}
+.download-button {
+    background-color: #3242a8;
+    height: 35px;
+    width: 90px;
+    border-radius: 5px;
+    color: white;
+}
+
+.bottom-card {
+    height: 180px;
+    background-color: cadetblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.vertical-line-container {
+    display: flex;
+}
+
+
+.horizantal-line {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.sign-button {
+    border-radius: 7px;
+    height: 40px;
+    width: 80px;
+    color: black;
+
+    margin-right: 10px;
+}
+
+.signup-button {
+    border-radius: 7px;
+    height: 40px;
+    width: 80px;
+    color: white;
+
+    background-color: #3242a8;
+}
+
+.signup-button2 {
+    border-radius: 7px;
+    height: 25px;
+    width: 70px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    background-color: #3242a8;
+}
+
+.heading2 {
+    color: #3242a8;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.heading {
+    color: #3242a8;
+    font-size: 30px;
+    font-weight: bold;
+    
+   
+    margin-left: 70px;
+
+}
+
+.bg-container {
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin: 20px;
+
+
+
+
+}
+
+.card-containers {
+    background-color: #e6f9ff;
+
+    height: fit-content;
+
+
+    border-radius: 0px;
+
+}
