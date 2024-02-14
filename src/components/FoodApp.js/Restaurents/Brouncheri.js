@@ -15,6 +15,25 @@ import Item from '../ItemCard'
 import { useState } from 'react'
 
 
+let items = [ 
+    {
+        img:sandwitch,
+        name:' Artichoke Sandwich',
+        description: 'Artichoke,spinach,cheddar and mushrooms.',
+        price:'$7.50',
+        popular:'popular',
+        button:'add'
+ },
+ {
+    img:sandwitch,
+    name:' Egg Sandwich',
+    description: 'Artichoke,spinach,cheddar and mushrooms.',
+    price:'$7.50',
+    popular:'popular',
+    button:'add'
+},
+
+]
 
 
 function Brouncheri() {

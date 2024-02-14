@@ -14,7 +14,8 @@
     margin: 10% auto;
     padding: 20px;
     border: 1px solid #888;
-    height: 86%;
+    height: 80%;
+    overflow: auto;
     width: 20%;
     border-radius: 10px;
   }

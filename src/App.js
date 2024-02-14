@@ -1,14 +1,17 @@
 import React from 'react'
+import DisplayPage from './components/ShoppingApp/DisplayPage'
+import SearchBar from './components/search'
 import MainFile from './components/FoodApp.js/MainFile'
 
-
-
 function App() {
+
+ 
+  
   return (
-    <div >
+    <div>
       <center>
-      <MainFile/>
-      
+    <MainFile/>
+    
       </center>
     
     </div>

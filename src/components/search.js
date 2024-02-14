@@ -45,9 +45,33 @@ function SearchBar() {
   return (
     <div>
       <center>
-        <h1>Introduction</h1>
+        <h1>Introduction</h1> 
+     <form onSubmit={submitHandler}>
+      <input type='text' onChange={changeHandler}/> <br/>
+      <input type='submit' value='add'/>
+     </form>
+     {cities.filter(eachCity=>eachCity.name.toLowerCase().includes(data)).map(eachCity=> ( 
+      <div>
+        <h1>{eachCity.name}</h1>
+      </div>
+     ))}
+       
 
-        <form onSubmit={submitHandler}>
+    
+      
+
+      </center>
+    </div>
+  )
+}
+
+export default SearchBar;
+
+
+
+
+/*
+ <form onSubmit={submitHandler}>
           <input type='text' value={data} onChange={changeHandler} />
          <input type='submit' value='add'/>
         </form>
@@ -58,11 +82,4 @@ function SearchBar() {
         </div>
           ))}
 
-      
-
-      </center>
-    </div>
-  )
-}
-
-export default SearchBar;
+*/
